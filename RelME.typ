@@ -1,7 +1,7 @@
 #let title = "Análise das Correlações entre Frequências de Palavras no CNMAC e Disponibilidade do ChatGPT-3.5"
 #let author = "Osmar Cardoso Lopes Filho"
 #let email = "osmarclopesfilho@gmail.com"
-#let git = "[git link]"
+#let git = "https://github.com/OsmarCLFilho/ModStatA2"
 
 #set par(
     justify:true
@@ -21,7 +21,7 @@
         #text(size:14pt)[
             *#author* \
             #raw(email) \
-            #raw(git)
+            #link(git)[`GitHub`]
         ]
 
         #v(0.8em)
